@@ -1,0 +1,106 @@
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "CollectionPage",
+    "name": " Львів Берлін автобуси: розклад, ціни, бронювання онлайн",
+    "description": "Розклад автобусів Львів Берлін.Онлайн бронювання квитків. Маршрути і графік рейсів. Ціни на автобусні квитки зі Львова в Берлін.",
+    "url": "https://ewe.ua/bus/lviv-berlin",
+    "provider": {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "East West Eurolines",
+        "description": "The company East West Eurolines (LLC Lviv ATP-14631) is engaged in domestic and international passenger transportation. The company has a long history: it is based on a car company that was opened back in 1946. Using the experience left to us by our predecessors and the ability to adapt to changes in the market has provided us with the status of not only one of the oldest enterprises, but also the status of one of the largest automobile enterprises in Ukraine in the field of passenger transportation",
+        "alternatename": ["east west eurolines", "ewe", "ewe ua", "ewe. ua", "East West Euroline", "eve ua", "ewe.ua", "EST West Eurolines", "eastwesteurolines", "east west", "eurolines", " ewe trans", "East West", "East West Eurolines", "Eurolines", "east west eurolines / Gal-universe LLC", "eurolines ua", "east west euroline", "East West Euroline", "west east eurolines", " www.ewe.ua"],
+        "brand": ["EWE", " East West Eurolines"],
+        "email": "support@ewe.ua",
+        "logo": "https://ewe.ua/modules/frontend/img/ewe_logo_correct.svg",
+        "knowsLanguage": ["Ukrainian", "Polish", "English", " Russian"],
+        "sameas": ["https://www.facebook.com/eastwesteurolines/", "https://goo.gl/maps/jcL1XkvEnpbHTEfR7", "http://eastwesteurolines.eu", "https://uk.wikipedia.org/wiki/East_West_Eurolines", "https://www.instagram.com/east_west_eurolines/"],
+        "address": ["Lviv, vul. Stryjska, 109", "Lviv, PL. Dvortsovaya, 1 (railway station as-8)", "Krakow, vul. Stefan Batorego 19, of.11"],
+        "url": "https://ewe.ua",
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": ["+380988154444", "+38 (073) 374-0520", "+38 (095) 292-0402", "+38 (067) 320-0402"],
+            "contactType": "customer service",
+            "areaServed": "Ukraine"
+        }, {
+            "@type": "ContactPoint",
+            "telephone": "+380672305440",
+            "contactType": "technical support"
+        }, {
+            "@type": "ContactPoint",
+            "telephone": ["+48123337165", "+48123337860", "+380503637860"],
+            "contactType": "customer service",
+            "areaServed": "Poland"
+        }]
+    },
+    "breadcrumb": {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://ewe.ua",
+                "name": "East West Eurolines"
+            }
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://ewe.ua/bus/lviv-berlin",
+                "name": "Львів Берлін"
+            }
+        }]
+    },
+    "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [{
+            "@context": "http://schema.org",
+            "@type": "Product",
+            "sku": "lviv-berlin",
+            "name": "Львів Берлінавтобуси: розклад, ціни, бронювання онлайн",
+            "description": "Розклад автобусів Львів Берлін. Онлайн бронювання квитків. Маршрути і графік рейсів. Ціни на автобусні квитки зі Львова в Берлін.",
+            "url": "https://ewe.ua/bus/lviv-berlin",
+            "image": [""],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4,5",
+                "reviewCount": "26"
+            },
+            "offers": {
+                "@type": "AggregateOffer",
+                "highPrice": "1600",
+                "lowPrice": "1200",
+                "priceCurrency": "UAH",
+                "offerCount": "6"
+            }
+        }, {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "Скільки часу триває подорож зі Львова до Берліна?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Орієнтовна тривалість поїздки 14 годин"
+                }
+            }, {
+                "@type": "Question",
+                "name": "Звідки відправляються автобуси Львів Берлін?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Львів , АВ Центральний, вул. Стрийська, 109"
+                }
+            }, {
+                "@type": "Question",
+                "name": "Яка кінцева зупинка автобуса в Берліні?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Берлін , Берлін, ZOB am Funkturm"
+                }
+            }]
+        }]
+    }
+}
+</script>
