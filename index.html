@@ -12,26 +12,26 @@
   "@context": "https://schema.org",
   "@type": ["Restaurant","Product"],
   "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Klampenborg",
-    "postalCode": "2930",
-    "streetAddress": "Strandvejen 808"
+    "@type": "PostalAddress",//Адреса ресторану
+    "addressLocality": "Klampenborg",//Місто
+    "postalCode": "2930",//Поштовий індекс
+    "streetAddress": "Strandvejen 808"//Вулиця та номер будівлі
   },
   "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4",
-    "reviewCount": "250"
+    "@type": "AggregateRating",//агрегований рейтинг відгуків користувачів
+    "ratingValue": "4",//оцінка, на її основі формуються зірочки в сніпеті
+    "reviewCount": "250"//к-сть відгуків виводиться в сніпет
   },
   "offers": {
-    "@type": "AggregateOffer",
-    "highPrice": "1495",
-    "lowPrice": "10",
-    "pricecurrency":"USD",
-    "offerCount": "8",
-    "offers": [
+    "@type": "AggregateOffer",//агрегована пропозиція вказаний діапазон цін тут може виводитись в сніпет
+    "highPrice": "1495",//максимальна ціна
+    "lowPrice": "10",//мінімальна ціна
+    "pricecurrency":"USD",//валюта
+    "offerCount": "8",//к-сть пропозицій, в якості пропозицій можна рахувати можливості бронювання наприклад вечеря/банкет на 10 осіб/банкет на 20 осіб і т.д
+    "offers": [ 
       {
-        "@type": "Offer",
-        "name":"Dinner"
+        "@type": "Offer",//конкретна пропозиція
+        "name":"Dinner"//назва пропозиції краще формувати данською
       },
       {
         "@type": "Offer",
@@ -39,22 +39,22 @@
       }
     ]
   },
-  "name": "Strandmøllekroen",
-  "sku":"strandmollekroen-1487",
-  "image":"https://imageproxy-v2.services.lokalebasen.dk/990x557/selskabslokaler/photos/5881/file.jpg?v=1456251313",
-  "brand":"Strandmøllekroen",
-  "description":"Strandmøllekroen er smukt beliggende på Strandvejen lidt nord for Klampenborg. Omgivet af skøn natur med udsigt over Øresund har vi de perfekte rammer for fødselsdage, konfirmationer, familiesammenkomster osv.  Kontakt os gerne for et uforpligtende tilbud.",
-  "openingHours": [
+  "name": "Strandmøllekroen",//назва ресторану
+  "sku":"strandmollekroen-1487",//унікальний код, беремо кінець урл адреси з ідентифікатором
+  "image":"https://imageproxy-v2.services.lokalebasen.dk/990x557/selskabslokaler/photos/5881/file.jpg?v=1456251313",//фото ресторану, тут можна формувати масив з трьох фотографій з співвідношенням сторінк 1:1,4:3,16:9
+  "brand":"Strandmøllekroen",//бренд
+  "description":"Strandmøllekroen er smukt beliggende på Strandvejen lidt nord for Klampenborg. Omgivet af skøn natur med udsigt over Øresund har vi de perfekte rammer for fødselsdage, konfirmationer, familiesammenkomster osv.  Kontakt os gerne for et uforpligtende tilbud.",//опис ресторану (важливо чистити текст від html коду при перенесенні сюди)
+  "openingHours": [ //графік роботи ресторану
     "Mo-Sa 11:00-14:30",
     "Mo-Th 17:00-21:30",
     "Fr-Sa 17:00-22:00"
   ],
-  "priceRange": "from 10 USD",
-  "servesCuisine": [
+  "priceRange": "from 10 USD",//діапазон цін може бути як в форматі від ХХХ, так 10-10000  
+  "servesCuisine": [ //типи кухні в ресторані
     "Danish",
     "European"
   ],
-  "url": "https://selskabslokaler.dk/leje/storkobenhavn/2930-klampenborg/strandmollekroen-1487"
+  "url": "https://selskabslokaler.dk/leje/storkobenhavn/2930-klampenborg/strandmollekroen-1487" //урл адрес сторінки ресторану на сайті
 }
 </script>
 </body>
